@@ -1,0 +1,17 @@
+/* Shared CSS for centered flipbook display */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the flipbook on the screen */
+#invite {
+    width: 80vw; /* Adjust width as needed */
+    height: 80vh; /* Adjust height as needed */
+    max-width: 1200px; /* Optional: set a maximum width */
+    max-height: 800px; /* Optional: set a maximum height */
+}
